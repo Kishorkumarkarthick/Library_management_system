@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Login</a>
+    <a href="books.html">Books</a>
+    <a href="about.html">About</a>
+    <button onclick="toggleDarkMode()">🌙</button>
+  </nav>
+
+  <div class="container">
+    <h1>About</h1>
+    <p>This is a simple yet powerful Library Management System built using HTML, CSS, and JavaScript.</p>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li><strong>Book Management:</strong> Add, edit, and delete book records including title, author, ISBN, publication date, category, and availability status.</li>
+      <li><strong>Borrow & Return System:</strong> Users can borrow and return books with automatic status updates and borrow history tracking.</li>
+      <li><strong>User Authentication:</strong> Basic login functionality to personalize user experience and manage borrowed books.</li>
+      <li><strong>Search & Filter:</strong> Advanced live search to filter books by title, author, ISBN, category, or status for easy navigation.</li>
+      <li><strong>Persistent Data Storage:</strong> Utilizes localStorage for saving data locally, ensuring information persists across browser sessions without server-side requirements.</li>
+      <li><strong>Responsive and Accessible UI:</strong> Fully responsive design compatible with desktops, tablets, and mobiles, adhering to accessibility standards.</li>
+      <li><strong>Dark Mode:</strong> Toggle light/dark themes for user comfort during day and night usage.</li>
+      <li><strong>Dynamic Statistics:</strong> Real-time counters for total books, available books, borrowed books, and active users.</li>
+      <li><strong>Category Management:</strong> Automatically generate and manage book categories based on user inputs for flexible organization.</li>
+      <li><strong>CSV Export & Import:</strong> Export library data to CSV for backup or external analysis, and import data to quickly restore or add records.</li>
+        
+    </ul>
+
+    <h2>Technologies Used</h2>
+    <ul>
+      <li><strong>HTML5:</strong> Semantic markup for structured content.</li>
+      <li><strong>CSS3 & Bootstrap:</strong> Modern styles and responsive design framework.</li>
+      <li><strong>JavaScript:</strong> DOM manipulation, event handling, data storage, and dynamic rendering.</li>
+      <li><strong>localStorage API:</strong> Client-side persistent storage without backend dependencies.</li>
+    </ul>
+
+    <h2>Future Enhancements</h2>
+    <ul>
+      <li>Integration with backend databases for centralized data management.</li>
+      <li>User roles and permissions to secure sensitive operations.</li>
+      <li>Email and SMS notifications for book due dates and system updates.</li>
+      <li>Enhanced reporting tools with PDF export functionality.</li>
+      <li>Integration with barcode scanners for easy book check-in/out.</li>
+      <li>Mobile app version with offline sync capabilities.</li>
+    </ul>
+
+    <p>This project not only provides a practical tool for managing book collections but also serves as a valuable educational resource, illustrating key concepts in front-end development, user experience design, and client-side data management.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
